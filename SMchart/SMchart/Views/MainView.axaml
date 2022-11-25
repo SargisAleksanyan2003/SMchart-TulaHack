@@ -3,6 +3,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:viewModels="clr-namespace:SMchart.ViewModels"
+			 xmlns:svg="clr-namespace:Avalonia.Svg.Skia;assembly=Avalonia.Svg.Skia"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="SMchart.Views.MainView">
 	<Design.DataContext>
@@ -10,8 +11,8 @@
 	</Design.DataContext>
 
 	<Grid Margin="5,5,5,5" Background="AntiqueWhite" RowDefinitions="30,30,*">
-		<Menu Height="25">
-			<MenuItem Height="25" Margin="5,0,10,0" Header="Файл">
+		<Menu Margin="5,0,0,0" Height="25">
+			<MenuItem Height="25" Margin="0,0,10,0" Header="Файл">
 				<MenuItem Height="25" Header="Создать"/>
 				<MenuItem Height="25" Header="Открыть"/>
 				<MenuItem Height="25" Header="Сохранить"/>
@@ -21,8 +22,12 @@
 				
 			</MenuItem>
 		</Menu>
-		<Menu Height="25" Grid.Row="1">
-			
+		<Menu Margin="5,0,0,0" Height="25" Grid.Row="1">
+			<MenuItem Height="25" Header="Undo">
+				<MenuItem.Icon>
+					<Image Source="/Assets/redo.png"/>
+				</MenuItem.Icon>
+			</MenuItem>
 		</Menu>
 		<Grid Grid.Row="2" ColumnDefinitions="0.3*,2,*" Background="BlueViolet">
 			<Grid Background="DarkSalmon">
