@@ -1,9 +1,0 @@
-﻿################################################################################
-# Данный GITIGNORE-файл был автоматически создан Microsoft(R) Visual Studio.
-################################################################################
-
-/.vs/SMchart/FileContentIndex
-/.vs/slnx.sqlite
-/.vs/SMchart/v17/.suo
-/.idea/.idea.SMchart/.idea/avalonia.xml
-/.vs/SMchart/DesignTimeBuild
