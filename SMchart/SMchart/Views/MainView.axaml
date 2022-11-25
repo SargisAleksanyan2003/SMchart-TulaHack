@@ -11,7 +11,7 @@
 
 	<Grid Margin="5,5,5,5" Background="AntiqueWhite" RowDefinitions="30,30,*">
 		<Menu Height="25">
-			<MenuItem Height="25" Header="Файл">
+			<MenuItem Height="25" Margin="5,0,10,0" Header="Файл">
 				<MenuItem Height="25" Header="Создать"/>
 				<MenuItem Height="25" Header="Открыть"/>
 				<MenuItem Height="25" Header="Сохранить"/>
@@ -24,7 +24,7 @@
 		<Menu Height="25" Grid.Row="1">
 			
 		</Menu>
-		<Grid Grid.Row="2" ColumnDefinitions="0.3*,5,*" Background="BlueViolet">
+		<Grid Grid.Row="2" ColumnDefinitions="0.3*,2,*" Background="BlueViolet">
 			<Grid Background="DarkSalmon">
 				
 			</Grid>
