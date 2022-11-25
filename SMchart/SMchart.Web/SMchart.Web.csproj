@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <PackageReference Include="Avalonia.Web" Version="$(AvaloniaVersion)" />
+    <PackageReference Include="Northwoods.GoDiagram.Avalonia" Version="10.0.0-preview1" />
   </ItemGroup>
 
   <ItemGroup>
