@@ -1,5 +1,6 @@
 <Application xmlns="https://github.com/avaloniaui"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:themes="clr-namespace:Material.Styles.Themes;assembly=Material.Styles"
              xmlns:local="using:SMchart"
              x:Class="SMchart.App">
     <Application.DataTemplates>
@@ -8,6 +9,6 @@
 
     <Application.Styles>
 		<!--<FluentTheme Mode="Light"/>-->
-		<StyleInclude Source="avares://Citrus.Avalonia/Citrus.xaml"/>
+        <themes:MaterialTheme BaseTheme="Light" PrimaryColor="Purple" SecondaryColor="Orange" />
     </Application.Styles>
 </Application>

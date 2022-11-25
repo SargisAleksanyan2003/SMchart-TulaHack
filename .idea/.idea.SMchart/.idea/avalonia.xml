@@ -3,6 +3,7 @@
   <component name="AvaloniaProject">
     <option name="projectPerEditor">
       <map>
+        <entry key="SMchart/SMchart/App.axaml" value="SMchart/SMchart.Desktop/SMchart.Desktop.csproj" />
         <entry key="SMchart/SMchart/Views/MainView.axaml" value="SMchart/SMchart.Desktop/SMchart.Desktop.csproj" />
         <entry key="SMchart/SMchart/Views/MainWindow.axaml" value="SMchart/SMchart.Desktop/SMchart.Desktop.csproj" />
       </map>
