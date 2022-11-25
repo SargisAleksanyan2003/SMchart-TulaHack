@@ -11,18 +11,17 @@
 
 	<Grid Margin="5,5,5,5" Background="AntiqueWhite" RowDefinitions="30,30,*">
 		<Menu Height="25">
-			<MenuItem Header="Файл">
-				<MenuItem Header="Создать"/>
-				<MenuItem Header="Открыть"/>
-				<MenuItem Header="Сохранить"/>
-				<Separator/>
-				<MenuItem Header="Закрыть"/>
+			<MenuItem Height="25" Header="Файл">
+				<MenuItem Height="25" Header="Создать"/>
+				<MenuItem Height="25" Header="Открыть"/>
+				<MenuItem Height="25" Header="Сохранить"/>
+				<MenuItem Height="25" Header="Экспорт"/>
 			</MenuItem>
-			<MenuItem Header="Редактировать">
+			<MenuItem Height="25" Header="Редактировать">
 				
 			</MenuItem>
 		</Menu>
-		<Menu Grid.Row="1">
+		<Menu Height="25" Grid.Row="1">
 			
 		</Menu>
 		<Grid Grid.Row="2" ColumnDefinitions="0.3*,5,*" Background="BlueViolet">
