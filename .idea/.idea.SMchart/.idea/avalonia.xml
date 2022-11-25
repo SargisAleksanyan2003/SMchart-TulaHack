@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="SMchart/SMchart/Views/MainView.axaml" value="SMchart/SMchart.Desktop/SMchart.Desktop.csproj" />
+        <entry key="SMchart/SMchart/Views/MainWindow.axaml" value="SMchart/SMchart.Desktop/SMchart.Desktop.csproj" />
+      </map>
+    </option>
+  </component>
+</project>
