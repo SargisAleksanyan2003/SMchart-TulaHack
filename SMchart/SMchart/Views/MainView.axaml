@@ -4,12 +4,37 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:viewModels="clr-namespace:SMchart.ViewModels"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
-             x:Class="SMchart.Views.MainView"
-             Foreground="White"
-             Background="#171C2C">
-  <Design.DataContext>
-    <viewModels:MainViewModel />
-  </Design.DataContext>
+             x:Class="SMchart.Views.MainView">
+	<Design.DataContext>
+		<viewModels:MainViewModel />
+	</Design.DataContext>
 
-  <TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+	<Grid Margin="5,5,5,5" Background="AntiqueWhite" RowDefinitions="30,30,*">
+		<Menu Height="25">
+			<MenuItem Header="Файл">
+				<MenuItem Header="Создать"/>
+				<MenuItem Header="Открыть"/>
+				<MenuItem Header="Сохранить"/>
+				<Separator/>
+				<MenuItem Header="Закрыть"/>
+			</MenuItem>
+			<MenuItem Header="Редактировать">
+				
+			</MenuItem>
+		</Menu>
+		<Menu Grid.Row="1">
+			
+		</Menu>
+		<Grid Grid.Row="2" ColumnDefinitions="0.3*,5,*" Background="BlueViolet">
+			<Grid Background="DarkSalmon">
+				
+			</Grid>
+
+			<GridSplitter Grid.Column="1"/>
+
+			<Grid Background="DarkCyan" Grid.Column="2">
+
+			</Grid>
+		</Grid>
+	</Grid>
 </UserControl>
