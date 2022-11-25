@@ -4,7 +4,8 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:viewModels="clr-namespace:SMchart.ViewModels"
 			 xmlns:svg="clr-namespace:Avalonia.Svg.Skia;assembly=Avalonia.Svg.Skia"
-             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+			 xmlns:avalonia="clr-namespace:Northwoods.Go.Avalonia;assembly=Northwoods.GoDiagram.Avalonia"
+			 mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="SMchart.Views.MainView">
 	<Design.DataContext>
 		<viewModels:MainViewModel />
@@ -29,16 +30,17 @@
 				</MenuItem.Icon>
 			</MenuItem>
 		</Menu>
-		<Grid Grid.Row="2" ColumnDefinitions="0.3*,2,*" Background="BlueViolet">
-			<Grid Background="DarkSalmon">
-				
-			</Grid>
-
-			<GridSplitter Grid.Column="1"/>
-
-			<Grid Background="DarkCyan" Grid.Column="2">
-
-			</Grid>
+		<Grid>
+			<Grid.RowDefinitions>
+				<RowDefinition Height="Auto" />
+				<RowDefinition Height="Auto" />
+				<RowDefinition Height="Auto" />
+			</Grid.RowDefinitions>
+			<avalonia:DiagramControl
+				Name="diagramControl1"
+				Height="600"
+				BorderBrush="Black" BorderThickness="1"
+				Grid.Row="0" />
 		</Grid>
 	</Grid>
 </UserControl>
