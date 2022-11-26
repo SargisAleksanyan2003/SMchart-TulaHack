@@ -1,0 +1,22 @@
+{
+  "name": "smchart-tulahack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrTransistorsChannel/SMchart-TulaHack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrTransistorsChannel/SMchart-TulaHack/issues"
+  },
+  "homepage": "https://github.com/MrTransistorsChannel/SMchart-TulaHack#readme",
+  "dependencies": {
+    "diagram-js": "^11.1.1"
+  }
+}
